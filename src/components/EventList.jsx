@@ -122,14 +122,16 @@ export const EventList = () => {
       </div>
 
       {/* Modern Participant Conclave Features Showcase */}
-      <div className="conclave-features-section">
-        <div className="features-section-header">
-          <div className="features-badge">
+      <div className="conclave-features-section" id="conclave-features">
+        <div className="features-section-header" style={{ display: "block", textAlign: "center", margin: "0 auto 36px auto", visibility: "visible", opacity: 1 }}>
+          <div className="features-badge" style={{ display: "inline-flex", alignItems: "center", gap: "6px" }}>
             <Zap size={13} className="text-amber-400" />
             <span>CAMPUS EVENT ECOSYSTEM</span>
           </div>
-          <h3 className="features-headline">Everything You Need To Build & Compete</h3>
-          <p className="features-subtext">
+          <h3 className="features-headline" style={{ color: "#ffffff", fontSize: "1.85rem", fontWeight: 800, margin: "8px 0", letterSpacing: "-0.02em", display: "block" }}>
+            Everything You Need To Build & Compete
+          </h3>
+          <p className="features-subtext" style={{ color: "#94a3b8", fontSize: "0.92rem", lineHeight: 1.6, maxWidth: "640px", margin: "0 auto", display: "block" }}>
             DevBoard Pulse connects students directly with faculty-backed hackathons, club conclaves, and prize bounties across NMIT Bengaluru.
           </p>
         </div>
